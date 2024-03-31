@@ -78,7 +78,7 @@ class StudentController extends Controller
             File::delete( $destination);
         }
         $student->delete();
-        return redirect()->back()->with('status','Student image deleted   successfully');
+        return redirect()->back()->with('status','Student image deleted  successfully');
 
     }
 }
